@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87bd629f-f1e3-4932-ae10-5e75d4bb143e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/templates/blog/post_detail.html" afterPath="$PROJECT_DIR$/myblog/templates/blog/post_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/settings.py" afterPath="$PROJECT_DIR$/untitled/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="post_list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/templates/blog/post_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="81" selection-start="5916" selection-end="5916" vertical-scroll-proportion="-13.541667" vertical-offset="1805" max-vertical-offset="2610">
+            <state line="142" column="81" selection-start="5916" selection-end="5916" vertical-scroll-proportion="-22.916666" vertical-offset="1580" max-vertical-offset="2610">
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -39,16 +40,16 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/templates/blog/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="74" selection-start="3076" selection-end="3076" vertical-scroll-proportion="-2.7288136" vertical-offset="889" max-vertical-offset="1935">
+            <state line="70" column="74" selection-start="3076" selection-end="3076" vertical-scroll-proportion="-7.3050847" vertical-offset="619" max-vertical-offset="1935">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_detail.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="post_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/templates/blog/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.7413793" vertical-offset="222" max-vertical-offset="570">
+            <state line="16" column="1" selection-start="772" selection-end="772" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="570">
               <folding>
                 <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
               </folding>
@@ -65,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untitled/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+            <state line="26" column="13" selection-start="902" selection-end="902" vertical-scroll-proportion="0.5121951" vertical-offset="180" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
@@ -110,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/untitled/settings.py" />
         <option value="$PROJECT_DIR$/myblog/admin.py" />
         <option value="$PROJECT_DIR$/myblog/models.py" />
         <option value="$PROJECT_DIR$/untitled/urls.py" />
@@ -126,6 +126,7 @@
         <option value="$PROJECT_DIR$/myblog/templates/blog/post_list.html" />
         <option value="$PROJECT_DIR$/myblog/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/myblog/templates/blog/post_detail.html" />
+        <option value="$PROJECT_DIR$/untitled/settings.py" />
       </list>
     </option>
   </component>
@@ -575,11 +576,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.352657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29146537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22036473" sideWeight="0.647343" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22036473" sideWeight="0.7085346" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6714976" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -690,22 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/templates/blog/post_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="81" selection-start="5916" selection-end="5916" vertical-scroll-proportion="-13.541667" vertical-offset="1805" max-vertical-offset="2610">
-          <folding>
-            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/templates/blog/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="74" selection-start="3076" selection-end="3076" vertical-scroll-proportion="-2.7288136" vertical-offset="889" max-vertical-offset="1935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myblog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -713,19 +698,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/settings.py">
+    <entry file="file://$PROJECT_DIR$/myblog/templates/blog/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+        <state line="16" column="1" selection-start="772" selection-end="772" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="570">
+          <folding>
+            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/templates/blog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="74" selection-start="3076" selection-end="3076" vertical-scroll-proportion="-7.3050847" vertical-offset="619" max-vertical-offset="1935">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/templates/blog/post_detail.html">
+    <entry file="file://$PROJECT_DIR$/myblog/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.7413793" vertical-offset="222" max-vertical-offset="570">
+        <state line="142" column="81" selection-start="5916" selection-end="5916" vertical-scroll-proportion="-22.916666" vertical-offset="1580" max-vertical-offset="2610">
           <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="902" selection-end="902" vertical-scroll-proportion="0.5121951" vertical-offset="180" max-vertical-offset="1710">
+          <folding />
         </state>
       </provider>
     </entry>
