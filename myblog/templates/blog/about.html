@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+{% load staticfiles %}
 <head>
 
     <meta charset="utf-8">
@@ -44,23 +44,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="post_list.html">Start Bootstrap</a>
+{#                <a class="navbar-brand" href="post_list.html">Start Bootstrap</a>#}
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="post_list.html">Home</a>
+                        <a href="{% url 'myblog.views.post_list'%}">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="{% url 'myblog.views.about_me'%}">About</a>
                     </li>
-{#                    <li>#}
-{#                        <a href="post_detail.html">Sample Post</a>#}
-{#                    </li>#}
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="{% url 'myblog.views.contact_me'%}">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +68,7 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('static/img/about-bg.jpg')">
+    <header class="intro-header" style="background-image: url('{% static 'img/about-bg.jpg' %}')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -90,13 +87,13 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <p>I'm a data science enthusiast practicing Statistics and Machine Learning whenever i'm free,from Nepal. I'm Currently involved as Project Manager at Yarsha Studio a software development company. I also teach graduate level students quite a daunting task but doing easy stuff isn't my way. Catch me on Linkedin, twitter or facebook</p>
-                <p>Things that had kept me busy for a while:</p>
+                <p>Things that kept me busy for a while:</p>
                 <ul>
                     <li>During college used to work as a freelancer for a cousin, those days were fun, made some pocket money developing webpages using Wordpress later stopped it because it didn't excite me.</li><br>
                     <li>Studied Ant algorithm paper by Marco Dorigo and Gianni Di Caro because was fascinated
-                    because of their approach of optimizing stuff which was related to ant's behavior. Tried to replicate it and created a small program.</li>
+                    because of their approach of optimizing stuff which was related to ant's behavior. Tried to replicate it and created a small program.</li><br>
                     <li>As an android developer for a company called Alucio Pvt. ltd. Working there was fun for a while but i think i wasn't ready to change from android to JSF so i quit.</li><br>
-                    <li>So after that started to research and develop a software called Incog Captcha breaker bot with my good old friend Sanjay Subedi, Man's got some serious technical skills, we implemented a vector space model based CAPTCHA solving algorithm which broke more than 15 chaptcha platform with accuracy averaging over 95%. Had a good run with him but unfortunately couldn't sell it may be because of lack of our marketing skills.</li><br>
+                    <li>So after that started to research and develop a software called Incog Captcha breaker bot with my good old friend <a href="http://sanjayasubedi.com.np/" target="_blank">Sanjay Subedi</a>, Man's got some serious technical skills, we implemented a vector space model based CAPTCHA solving algorithm which broke more than 15 chaptcha platform with accuracy averaging over 95%. Had a good run with him but unfortunately couldn't sell it may be because of lack of our marketing skills.</li><br>
                     <li>Worked as an android Quality Analyst at CashOnAd. During that period i learned a lot from my fellow colleagues, Later i lead the team and taught them what i had learned in during my time there. Fun time started when i started to code while doing Behavior Driven Development which i did in python, and even later for a Website now called ohobazaar i implemented a recommendation algorithm which had 90% of accuracy, i doubt if my algorithm was used because i left office after submitting my codes.</li><br>
 
                 </ul>
