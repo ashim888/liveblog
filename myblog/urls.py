@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^contact', views.contact_me),
     url(r'^test', views.test),
     url(r'^post/(?P<pk>[0-9]+)/$', views.post_detail),
+    url(r'^tag/(?P<tag>\w*)$', views.tag_page),
 ]
 
 # from django.conf.urls import include, url
