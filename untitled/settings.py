@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    'django_admin_bootstrapped',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +41,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'taggit',
     'myblog',
+    'ckeditor',
+
 )
 
 MIDDLEWARE_CLASSES = (
@@ -88,6 +91,12 @@ DATABASES = {
     }
 }
 
+#CKEDITOR CONFIG
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'None',
+    },
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
@@ -105,5 +114,10 @@ USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
-
+# PROJECT_DIR='/home/ashim888/PycharmProjects/untitled'
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/ashim888/PycharmProjects/untitled/static/assets/'
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
+CKEDITOR_UPLOAD_SLUGIFY_FILENAME = False
+CKEDITOR_RESTRICT_BY_USER= True

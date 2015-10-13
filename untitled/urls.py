@@ -8,6 +8,7 @@ urlpatterns = [
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'', include('myblog.urls')),
+    url(r'^ckeditor/', include('ckeditor.urls')),
     # url(r'^index/', include('myblog.urls')),
 
 ]
