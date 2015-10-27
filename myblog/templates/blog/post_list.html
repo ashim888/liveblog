@@ -31,7 +31,7 @@
                             {{ post.title }}
                         </h2>
                         <h3 class="post-subtitle">
-                            {{ post.text|linebreaks |slice:":200" }}...
+                            {{ post.text|linebreaks |slice:":200"  |safe}}...
                         </h3>
                     </a>
                     <p class="post-meta">Posted by <a href="about.html">{{ post.author }}</a> on {{ post.published_date|date }}</p>
